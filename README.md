@@ -1,4 +1,4 @@
-使用 virtual basic 6.0 编写
+使用 visual basic 6.0 编写
 
 注意
 --
