@@ -151,6 +151,14 @@ Private Sub Form_Load()
     Me.num.Text = Form1.num.Text
 End Sub
 Private Sub Command1_Click()
+    If gif = True Then
+        aero_tmp = aero
+        For i = 1 To aero_tmp / 9
+            SetLayeredWindowAttributes hwnd, 0, aero_tmp, LWA_ALPHA
+            aero_tmp = aero_tmp - 8
+            Call Sleep(1)
+        Next
+    End If
     Unload Me
 End Sub
 Private Sub Form_Unload(Cancel As Integer)

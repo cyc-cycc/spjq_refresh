@@ -174,6 +174,14 @@ Private Sub Command3_Click()
     Unload Me
 End Sub
 Private Sub Command4_Click()
+    If gif = True Then
+        aero_tmp = aero
+        For i = 1 To aero_tmp / 9
+            SetLayeredWindowAttributes hwnd, 0, aero_tmp, LWA_ALPHA
+            aero_tmp = aero_tmp - 8
+            Call Sleep(1)
+        Next
+    End If
     Unload Me
 End Sub
 Private Sub Form_Activate()

@@ -133,6 +133,14 @@ Private Sub Form_Activate()
         Call rgn_gif(Me, 15, 13, 15, 17)
     End If
     Call Sleep(splt)
+    If gif = True Then
+        aero_tmp = aero
+        For i = 1 To aero_tmp / 9
+            SetLayeredWindowAttributes hwnd, 0, aero_tmp, LWA_ALPHA
+            aero_tmp = aero_tmp - 8
+            Call Sleep(1)
+        Next
+    End If
     Form1.Show
     Unload Me
 End Sub
