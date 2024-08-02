@@ -42,7 +42,7 @@ Begin VB.Form frmAbout
       Width           =   1020
    End
    Begin VB.Label Label3 
-      Caption         =   "本程序由CYC版权所有，未经允许，禁止以任何形式传播本程序！"
+      Caption         =   "本程序遵循 GPL-3.0 协议"
       Height          =   255
       Left            =   120
       TabIndex        =   7
