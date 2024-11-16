@@ -15,6 +15,15 @@ Begin VB.Form gap
    ScaleWidth      =   3495
    Begin VB.CommandButton Command3 
       Caption         =   "¿ªÊ¼Ë¢ÆÁ£¨ÇëÊÖ¶¯¸´ÖÆË¢ÆÁÄÚÈÝ£©"
+      BeginProperty Font 
+         Name            =   "Î¢ÈíÑÅºÚ"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   495
       Left            =   120
       MousePointer    =   1  'Arrow
@@ -24,6 +33,15 @@ Begin VB.Form gap
    End
    Begin VB.Frame Frame1 
       Caption         =   "Êý¾ÝÉèÖÃ"
+      BeginProperty Font 
+         Name            =   "Î¢ÈíÑÅºÚ"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   1815
       Left            =   120
       MousePointer    =   1  'Arrow
@@ -43,6 +61,15 @@ Begin VB.Form gap
       End
       Begin VB.CommandButton Command5 
          Caption         =   "+"
+         BeginProperty Font 
+            Name            =   "Î¢ÈíÑÅºÚ"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   1800
          TabIndex        =   6
@@ -51,6 +78,15 @@ Begin VB.Form gap
       End
       Begin VB.CommandButton Command4 
          Caption         =   "-"
+         BeginProperty Font 
+            Name            =   "Î¢ÈíÑÅºÚ"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   2280
          TabIndex        =   7
@@ -82,6 +118,15 @@ Begin VB.Form gap
       Begin VB.CommandButton Command1 
          BackColor       =   &H80000004&
          Caption         =   "+"
+         BeginProperty Font 
+            Name            =   "Î¢ÈíÑÅºÚ"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   1800
          MousePointer    =   1  'Arrow
@@ -92,6 +137,15 @@ Begin VB.Form gap
       Begin VB.CommandButton Command2 
          BackColor       =   &H80000004&
          Caption         =   "-"
+         BeginProperty Font 
+            Name            =   "Î¢ÈíÑÅºÚ"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   2280
          MousePointer    =   1  'Arrow
@@ -112,6 +166,15 @@ Begin VB.Form gap
       End
       Begin VB.Label Label6 
          Caption         =   "Ë¢ÆÁÑÓ³Ù£º"
+         BeginProperty Font 
+            Name            =   "Î¢ÈíÑÅºÚ"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   120
          TabIndex        =   18
@@ -121,6 +184,15 @@ Begin VB.Form gap
       Begin VB.Label Label8 
          Alignment       =   2  'Center
          Caption         =   "ºÁÃë"
+         BeginProperty Font 
+            Name            =   "Î¢ÈíÑÅºÚ"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   2760
          TabIndex        =   17
@@ -129,6 +201,15 @@ Begin VB.Form gap
       End
       Begin VB.Label Label5 
          Caption         =   "ÔÚ"
+         BeginProperty Font 
+            Name            =   "Î¢ÈíÑÅºÚ"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   240
          MousePointer    =   1  'Arrow
@@ -138,6 +219,15 @@ Begin VB.Form gap
       End
       Begin VB.Label Label4 
          Caption         =   "Ãë ¼äÈ¡Ëæ»úÊý"
+         BeginProperty Font 
+            Name            =   "Î¢ÈíÑÅºÚ"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   1920
          MousePointer    =   1  'Arrow
@@ -147,6 +237,15 @@ Begin VB.Form gap
       End
       Begin VB.Label Label3 
          Caption         =   "µ½"
+         BeginProperty Font 
+            Name            =   "Î¢ÈíÑÅºÚ"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   1080
          MousePointer    =   1  'Arrow
@@ -156,6 +255,15 @@ Begin VB.Form gap
       End
       Begin VB.Label Label2 
          Caption         =   "Ë¢ÆÁ¼ä¸ô£º"
+         BeginProperty Font 
+            Name            =   "Î¢ÈíÑÅºÚ"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   120
          MousePointer    =   1  'Arrow
@@ -166,6 +274,15 @@ Begin VB.Form gap
       Begin VB.Label Label1 
          BackColor       =   &H80000004&
          Caption         =   "Ë¢ÆÁ´ÎÊý£º"
+         BeginProperty Font 
+            Name            =   "Î¢ÈíÑÅºÚ"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   120
          MousePointer    =   1  'Arrow
@@ -177,6 +294,15 @@ Begin VB.Form gap
          Alignment       =   2  'Center
          BackColor       =   &H80000004&
          Caption         =   "´Î"
+         BeginProperty Font 
+            Name            =   "Î¢ÈíÑÅºÚ"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   2880
          MousePointer    =   1  'Arrow
@@ -187,6 +313,15 @@ Begin VB.Form gap
    End
    Begin VB.CommandButton exit 
       Caption         =   "¹Ø±Õ"
+      BeginProperty Font 
+         Name            =   "Î¢ÈíÑÅºÚ"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   375
       Left            =   120
       MousePointer    =   1  'Arrow

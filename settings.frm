@@ -2,7 +2,7 @@ VERSION 5.00
 Begin VB.Form settings 
    BorderStyle     =   1  'Fixed Single
    Caption         =   "…Ë÷√"
-   ClientHeight    =   4710
+   ClientHeight    =   4695
    ClientLeft      =   105
    ClientTop       =   450
    ClientWidth     =   3975
@@ -11,37 +11,73 @@ Begin VB.Form settings
    MaxButton       =   0   'False
    MinButton       =   0   'False
    MousePointer    =   5  'Size
-   ScaleHeight     =   4710
+   ScaleHeight     =   4695
    ScaleWidth      =   3975
    Begin VB.Frame Frame3 
       Caption         =   "±£¥Ê…Ë÷√"
+      BeginProperty Font 
+         Name            =   "Œ¢»Ì—≈∫⁄"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   1215
       Left            =   120
       MousePointer    =   1  'Arrow
-      TabIndex        =   20
+      TabIndex        =   19
       Top             =   2880
       Width           =   3735
       Begin VB.OptionButton Option4 
          Caption         =   "±£¥ÊÀ˘”–"
+         BeginProperty Font 
+            Name            =   "Œ¢»Ì—≈∫⁄"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   1800
-         TabIndex        =   10
+         TabIndex        =   9
          Top             =   720
          Width           =   1695
       End
       Begin VB.OptionButton Option3 
          Caption         =   "Ωˆ±£¥Ê÷˜¥∞ø⁄"
+         BeginProperty Font 
+            Name            =   "Œ¢»Ì—≈∫⁄"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   120
-         TabIndex        =   11
+         TabIndex        =   10
          Top             =   720
          Width           =   1455
       End
       Begin VB.CheckBox Check2 
          Caption         =   "ÕÀ≥ˆ ±±£¥Ê¥∞ø⁄Œª÷√"
+         BeginProperty Font 
+            Name            =   "Œ¢»Ì—≈∫⁄"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   120
-         TabIndex        =   9
+         TabIndex        =   8
          Top             =   360
          Width           =   2055
       End
@@ -49,39 +85,75 @@ Begin VB.Form settings
    Begin VB.CommandButton Command6 
       BackColor       =   &H80000004&
       Caption         =   "÷ÿ÷√"
+      BeginProperty Font 
+         Name            =   "Œ¢»Ì—≈∫⁄"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   375
       Left            =   1320
       MousePointer    =   1  'Arrow
-      TabIndex        =   13
+      TabIndex        =   12
       Top             =   4200
       Width           =   1095
    End
    Begin VB.CommandButton Command5 
       BackColor       =   &H80000004&
       Caption         =   "”¶”√"
+      BeginProperty Font 
+         Name            =   "Œ¢»Ì—≈∫⁄"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   375
       Left            =   120
       MousePointer    =   1  'Arrow
-      TabIndex        =   12
+      TabIndex        =   11
       Top             =   4200
       Width           =   1095
    End
    Begin VB.CheckBox Check1 
       Caption         =   "œ‘ æ∆Ù∂Ø∆¡ƒª"
+      BeginProperty Font 
+         Name            =   "Œ¢»Ì—≈∫⁄"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   255
       Left            =   240
       MousePointer    =   1  'Arrow
-      TabIndex        =   8
+      TabIndex        =   7
       Top             =   2400
       Value           =   1  'Checked
       Width           =   1575
    End
    Begin VB.Frame Frame2 
       Caption         =   "∆Ù∂Ø…Ë÷√"
+      BeginProperty Font 
+         Name            =   "Œ¢»Ì—≈∫⁄"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   1095
       Left            =   120
       MousePointer    =   1  'Arrow
-      TabIndex        =   18
+      TabIndex        =   17
       Top             =   1680
       Width           =   3735
       Begin VB.TextBox Text3 
@@ -89,52 +161,95 @@ Begin VB.Form settings
          Height          =   270
          Left            =   2520
          MousePointer    =   3  'I-Beam
-         TabIndex        =   7
+         TabIndex        =   6
          Text            =   "2000"
          Top             =   360
          Width           =   1095
       End
       Begin VB.Label Label1 
          Caption         =   "∆Ù∂Ø∆¡ƒªœ‘ æ ±≥§£®ms£©£∫"
+         BeginProperty Font 
+            Name            =   "Œ¢»Ì—≈∫⁄"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   120
-         TabIndex        =   19
+         TabIndex        =   18
          Top             =   360
          Width           =   2175
       End
    End
    Begin VB.CommandButton Command3 
       Caption         =   "ÕÀ≥ˆ"
+      BeginProperty Font 
+         Name            =   "Œ¢»Ì—≈∫⁄"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   375
       Left            =   2520
       MousePointer    =   1  'Arrow
-      TabIndex        =   14
+      TabIndex        =   13
       Top             =   4200
       Width           =   1335
    End
    Begin VB.Frame Frame1 
       BackColor       =   &H80000004&
       Caption         =   "Õ‚π€…Ë÷√"
+      BeginProperty Font 
+         Name            =   "Œ¢»Ì—≈∫⁄"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       ForeColor       =   &H80000007&
       Height          =   1455
       Left            =   120
       MousePointer    =   1  'Arrow
-      TabIndex        =   15
+      TabIndex        =   14
       Top             =   120
       Width           =   3735
       Begin VB.CheckBox Check3 
          Caption         =   "∆Ù”√∂Øª≠"
+         BeginProperty Font 
+            Name            =   "Œ¢»Ì—≈∫⁄"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   120
-         MousePointer    =   1  'Arrow
-         TabIndex        =   6
+         TabIndex        =   20
          Top             =   1080
-         Value           =   1  'Checked
          Width           =   1215
       End
       Begin VB.CommandButton Command2 
          BackColor       =   &H80000004&
          Caption         =   "+"
+         BeginProperty Font 
+            Name            =   "Œ¢»Ì—≈∫⁄"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   2760
          TabIndex        =   4
@@ -144,6 +259,15 @@ Begin VB.Form settings
       Begin VB.CommandButton Command1 
          BackColor       =   &H80000004&
          Caption         =   "-"
+         BeginProperty Font 
+            Name            =   "Œ¢»Ì—≈∫⁄"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   3240
          TabIndex        =   5
@@ -153,6 +277,15 @@ Begin VB.Form settings
       Begin VB.CommandButton Command10 
          BackColor       =   &H80000004&
          Caption         =   "+"
+         BeginProperty Font 
+            Name            =   "Œ¢»Ì—≈∫⁄"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   2760
          TabIndex        =   1
@@ -193,22 +326,40 @@ Begin VB.Form settings
       Begin VB.Label Label4 
          BackColor       =   &H80000004&
          Caption         =   "≤ªÕ∏√˜∂»0~255£∫"
+         BeginProperty Font 
+            Name            =   "Œ¢»Ì—≈∫⁄"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          ForeColor       =   &H80000007&
          Height          =   255
          Left            =   120
          MousePointer    =   1  'Arrow
-         TabIndex        =   17
+         TabIndex        =   16
          Top             =   360
          Width           =   1455
       End
       Begin VB.Label Label5 
          BackColor       =   &H80000004&
          Caption         =   "‘≤Ω«¥Û–°£∫"
+         BeginProperty Font 
+            Name            =   "Œ¢»Ì—≈∫⁄"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          ForeColor       =   &H80000007&
          Height          =   255
          Left            =   120
          MousePointer    =   1  'Arrow
-         TabIndex        =   16
+         TabIndex        =   15
          Top             =   720
          Width           =   975
       End

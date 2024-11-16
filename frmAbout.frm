@@ -2,7 +2,7 @@ VERSION 5.00
 Begin VB.Form frmAbout 
    BorderStyle     =   1  'Fixed Single
    Caption         =   "关于我的应用程序"
-   ClientHeight    =   2925
+   ClientHeight    =   3255
    ClientLeft      =   2340
    ClientTop       =   1935
    ClientWidth     =   5910
@@ -12,13 +12,22 @@ Begin VB.Form frmAbout
    MaxButton       =   0   'False
    MinButton       =   0   'False
    MousePointer    =   5  'Size
-   ScaleHeight     =   2018.886
+   ScaleHeight     =   2246.658
    ScaleMode       =   0  'User
    ScaleWidth      =   5549.797
    Begin VB.TextBox Text1 
       BackColor       =   &H80000004&
       BorderStyle     =   0  'None
-      Height          =   2055
+      BeginProperty Font 
+         Name            =   "微软雅黑"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   2535
       Left            =   3240
       Locked          =   -1  'True
       MousePointer    =   1  'Arrow
@@ -34,43 +43,70 @@ Begin VB.Form frmAbout
       Cancel          =   -1  'True
       Caption         =   "确定"
       Default         =   -1  'True
+      BeginProperty Font 
+         Name            =   "微软雅黑"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   345
       Left            =   2040
       MousePointer    =   1  'Arrow
       TabIndex        =   0
-      Top             =   1920
+      Top             =   2280
       Width           =   1020
    End
    Begin VB.Label Label3 
       Caption         =   "本程序遵循 GPL-3.0 协议"
+      BeginProperty Font 
+         Name            =   "微软雅黑"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   255
       Left            =   120
       TabIndex        =   7
-      Top             =   2520
+      Top             =   2880
       Width           =   5655
    End
    Begin VB.Line Line2 
       X1              =   0
       X2              =   5521.625
-      Y1              =   1656.522
-      Y2              =   1656.522
+      Y1              =   1905
+      Y2              =   1905
    End
    Begin VB.Line Line1 
       DrawMode        =   1  'Blackness
       X1              =   2929.842
       X2              =   2929.842
       Y1              =   82.826
-      Y2              =   1490.87
+      Y2              =   1822.174
    End
    Begin VB.Label Label2 
       BackStyle       =   0  'Transparent
       Caption         =   "支持系统:Windows7sp1 ~ Windows11"
+      BeginProperty Font 
+         Name            =   "微软雅黑"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       ForeColor       =   &H000000FF&
-      Height          =   255
+      Height          =   615
       Left            =   120
       MousePointer    =   1  'Arrow
       TabIndex        =   5
-      Top             =   1560
+      Top             =   1680
       Width           =   3015
    End
    Begin VB.Label Label1 
@@ -89,14 +125,23 @@ Begin VB.Form frmAbout
       Left            =   120
       MousePointer    =   1  'Arrow
       TabIndex        =   4
-      Top             =   1920
+      Top             =   2280
       Width           =   1695
    End
    Begin VB.Label lblDescription 
       BackStyle       =   0  'Transparent
       Caption         =   "重制版的刷屏机器，拥有更多的功能、更美观的界面和更强的稳定性。用于日常刷屏"
+      BeginProperty Font 
+         Name            =   "微软雅黑"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       ForeColor       =   &H00000000&
-      Height          =   690
+      Height          =   810
       Left            =   120
       MousePointer    =   1  'Arrow
       TabIndex        =   1
@@ -106,6 +151,15 @@ Begin VB.Form frmAbout
    Begin VB.Label lblTitle 
       BackStyle       =   0  'Transparent
       Caption         =   "应用程序标题"
+      BeginProperty Font 
+         Name            =   "微软雅黑"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       ForeColor       =   &H00000000&
       Height          =   240
       Left            =   120
@@ -117,6 +171,15 @@ Begin VB.Form frmAbout
    Begin VB.Label lblVersion 
       BackStyle       =   0  'Transparent
       Caption         =   "版本"
+      BeginProperty Font 
+         Name            =   "微软雅黑"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   225
       Left            =   120
       MousePointer    =   1  'Arrow

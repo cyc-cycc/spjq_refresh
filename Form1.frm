@@ -16,6 +16,15 @@ Begin VB.Form Form1
    Begin VB.CommandButton Command1 
       BackColor       =   &H000000FF&
       Caption         =   "ÕÀ≥ˆ"
+      BeginProperty Font 
+         Name            =   "Œ¢»Ì—≈∫⁄"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   375
       Left            =   120
       MousePointer    =   1  'Arrow
@@ -26,6 +35,15 @@ Begin VB.Form Form1
    Begin VB.CommandButton command2 
       BackColor       =   &H80000004&
       Caption         =   "ø™ ºÀ¢∆¡£®«Î ÷∂Ø∏¥÷∆À¢∆¡ƒ⁄»›£©"
+      BeginProperty Font 
+         Name            =   "Œ¢»Ì—≈∫⁄"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   495
       Left            =   120
       MousePointer    =   1  'Arrow
@@ -36,6 +54,15 @@ Begin VB.Form Form1
    Begin VB.Frame sz 
       BackColor       =   &H80000004&
       Caption         =   " ˝æ›…Ë÷√"
+      BeginProperty Font 
+         Name            =   "Œ¢»Ì—≈∫⁄"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       ForeColor       =   &H80000007&
       Height          =   1455
       Left            =   120
@@ -45,6 +72,15 @@ Begin VB.Form Form1
       Width           =   3255
       Begin VB.CommandButton Command4 
          Caption         =   "-"
+         BeginProperty Font 
+            Name            =   "Œ¢»Ì—≈∫⁄"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   2280
          TabIndex        =   8
@@ -53,6 +89,15 @@ Begin VB.Form Form1
       End
       Begin VB.CommandButton Command3 
          Caption         =   "+"
+         BeginProperty Font 
+            Name            =   "Œ¢»Ì—≈∫⁄"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   1800
          TabIndex        =   7
@@ -94,6 +139,15 @@ Begin VB.Form Form1
       Begin VB.CommandButton Command13 
          BackColor       =   &H80000004&
          Caption         =   "-"
+         BeginProperty Font 
+            Name            =   "Œ¢»Ì—≈∫⁄"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   2280
          TabIndex        =   5
@@ -103,6 +157,15 @@ Begin VB.Form Form1
       Begin VB.CommandButton Command12 
          BackColor       =   &H80000004&
          Caption         =   "+"
+         BeginProperty Font 
+            Name            =   "Œ¢»Ì—≈∫⁄"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   1800
          TabIndex        =   4
@@ -112,6 +175,15 @@ Begin VB.Form Form1
       Begin VB.CommandButton Command11 
          BackColor       =   &H80000004&
          Caption         =   "-"
+         BeginProperty Font 
+            Name            =   "Œ¢»Ì—≈∫⁄"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   2280
          TabIndex        =   2
@@ -121,6 +193,15 @@ Begin VB.Form Form1
       Begin VB.CommandButton Command10 
          BackColor       =   &H80000004&
          Caption         =   "+"
+         BeginProperty Font 
+            Name            =   "Œ¢»Ì—≈∫⁄"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   1800
          TabIndex        =   1
@@ -130,6 +211,15 @@ Begin VB.Form Form1
       Begin VB.Label Label8 
          Alignment       =   2  'Center
          Caption         =   "∫¡√Î"
+         BeginProperty Font 
+            Name            =   "Œ¢»Ì—≈∫⁄"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   2760
          TabIndex        =   18
@@ -138,6 +228,15 @@ Begin VB.Form Form1
       End
       Begin VB.Label Label5 
          Caption         =   "À¢∆¡—”≥Ÿ£∫"
+         BeginProperty Font 
+            Name            =   "Œ¢»Ì—≈∫⁄"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   120
          TabIndex        =   17
@@ -158,6 +257,15 @@ Begin VB.Form Form1
          Alignment       =   2  'Center
          BackColor       =   &H80000004&
          Caption         =   "√Î"
+         BeginProperty Font 
+            Name            =   "Œ¢»Ì—≈∫⁄"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   2880
          TabIndex        =   15
@@ -167,6 +275,15 @@ Begin VB.Form Form1
       Begin VB.Label Label2 
          BackColor       =   &H80000004&
          Caption         =   "À¢∆¡º‰∏Ù£∫"
+         BeginProperty Font 
+            Name            =   "Œ¢»Ì—≈∫⁄"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   120
          TabIndex        =   13
@@ -176,6 +293,15 @@ Begin VB.Form Form1
       Begin VB.Label Label1 
          BackColor       =   &H80000004&
          Caption         =   "À¢∆¡¥Œ ˝£∫"
+         BeginProperty Font 
+            Name            =   "Œ¢»Ì—≈∫⁄"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   120
          TabIndex        =   12

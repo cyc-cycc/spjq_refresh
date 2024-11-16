@@ -24,6 +24,15 @@ Begin VB.Form frmSplash
       Width           =   4920
       Begin VB.Label Label1 
          Caption         =   "ÕýÔÚÆô¶¯......"
+         BeginProperty Font 
+            Name            =   "Î¢ÈíÑÅºÚ"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   120
          TabIndex        =   7
@@ -32,6 +41,15 @@ Begin VB.Form frmSplash
       End
       Begin VB.Label lblCopyright 
          Caption         =   "°æÈ¨ËùÓÐ"
+         BeginProperty Font 
+            Name            =   "Î¢ÈíÑÅºÚ"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   240
          TabIndex        =   2
@@ -40,6 +58,15 @@ Begin VB.Form frmSplash
       End
       Begin VB.Label lblCompany 
          Caption         =   "CYC"
+         BeginProperty Font 
+            Name            =   "Î¢ÈíÑÅºÚ"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   240
          TabIndex        =   1

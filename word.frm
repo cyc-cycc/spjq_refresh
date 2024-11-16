@@ -28,6 +28,15 @@ Begin VB.Form wordbox
    End
    Begin VB.CommandButton Command1 
       Caption         =   "ÍË³ö"
+      BeginProperty Font 
+         Name            =   "Î¢ÈíÑÅºÚ"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   375
       Left            =   3480
       MousePointer    =   1  'Arrow

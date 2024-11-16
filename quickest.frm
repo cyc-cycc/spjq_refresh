@@ -2,7 +2,7 @@ VERSION 5.00
 Begin VB.Form quickest 
    BorderStyle     =   1  'Fixed Single
    Caption         =   "¸ßËÙË¢ÆÁ"
-   ClientHeight    =   3150
+   ClientHeight    =   3405
    ClientLeft      =   45
    ClientTop       =   390
    ClientWidth     =   3495
@@ -11,20 +11,38 @@ Begin VB.Form quickest
    MaxButton       =   0   'False
    MinButton       =   0   'False
    MousePointer    =   5  'Size
-   ScaleHeight     =   3150
+   ScaleHeight     =   3405
    ScaleWidth      =   3495
    StartUpPosition =   3  '´°¿ÚÈ±Ê¡
    Begin VB.CommandButton Command4 
       Caption         =   "¿ªÊ¼Ë¢ÆÁ£¨ÇëÊÖ¶¯¸´ÖÆË¢ÆÁÄÚÈÝ£©"
+      BeginProperty Font 
+         Name            =   "Î¢ÈíÑÅºÚ"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   495
       Left            =   120
       MousePointer    =   1  'Arrow
       TabIndex        =   3
-      Top             =   2040
+      Top             =   2280
       Width           =   3255
    End
    Begin VB.Frame Frame1 
       Caption         =   "Êý¾ÝÉèÖÃ"
+      BeginProperty Font 
+         Name            =   "Î¢ÈíÑÅºÚ"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   855
       Left            =   120
       MousePointer    =   1  'Arrow
@@ -45,6 +63,15 @@ Begin VB.Form quickest
       Begin VB.CommandButton Command3 
          BackColor       =   &H80000004&
          Caption         =   "-"
+         BeginProperty Font 
+            Name            =   "Î¢ÈíÑÅºÚ"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   2280
          MousePointer    =   1  'Arrow
@@ -55,6 +82,15 @@ Begin VB.Form quickest
       Begin VB.CommandButton Command2 
          BackColor       =   &H80000004&
          Caption         =   "+"
+         BeginProperty Font 
+            Name            =   "Î¢ÈíÑÅºÚ"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   1800
          MousePointer    =   1  'Arrow
@@ -66,6 +102,15 @@ Begin VB.Form quickest
          Alignment       =   2  'Center
          BackColor       =   &H80000004&
          Caption         =   "´Î"
+         BeginProperty Font 
+            Name            =   "Î¢ÈíÑÅºÚ"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   2880
          MousePointer    =   1  'Arrow
@@ -76,6 +121,15 @@ Begin VB.Form quickest
       Begin VB.Label Label1 
          BackColor       =   &H80000004&
          Caption         =   "Ë¢ÆÁ´ÎÊý£º"
+         BeginProperty Font 
+            Name            =   "Î¢ÈíÑÅºÚ"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   120
          MousePointer    =   1  'Arrow
@@ -86,17 +140,35 @@ Begin VB.Form quickest
    End
    Begin VB.CommandButton Command1 
       Caption         =   "¹Ø±Õ"
+      BeginProperty Font 
+         Name            =   "Î¢ÈíÑÅºÚ"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   375
       Left            =   120
       MousePointer    =   1  'Arrow
       TabIndex        =   4
-      Top             =   2640
+      Top             =   2880
       Width           =   3255
    End
    Begin VB.Label Label2 
       Caption         =   $"quickest.frx":10CA
+      BeginProperty Font 
+         Name            =   "Î¢ÈíÑÅºÚ"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       ForeColor       =   &H000000FF&
-      Height          =   795
+      Height          =   1035
       Left            =   120
       MousePointer    =   1  'Arrow
       TabIndex        =   8

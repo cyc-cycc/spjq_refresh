@@ -38,6 +38,15 @@ Begin VB.Form special_gap
    End
    Begin VB.CommandButton Command4 
       Caption         =   "È¡Ïû"
+      BeginProperty Font 
+         Name            =   "Î¢ÈíÑÅºÚ"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   375
       Left            =   3240
       TabIndex        =   3
@@ -109,6 +118,15 @@ Begin VB.Form special_gap
    End
    Begin VB.Label Label5 
       Caption         =   "Ë¢ÆÁÆÚ¼ä²»Òªµã»÷ÆäËüÈÎºÎ´°¿Ú£¡"
+      BeginProperty Font 
+         Name            =   "Î¢ÈíÑÅºÚ"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       ForeColor       =   &H000000FF&
       Height          =   255
       Left            =   120
@@ -118,6 +136,15 @@ Begin VB.Form special_gap
    End
    Begin VB.Label Label4 
       Caption         =   "Ë¢ÆÁÑÓ³Ù£º"
+      BeginProperty Font 
+         Name            =   "Î¢ÈíÑÅºÚ"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   255
       Left            =   2400
       TabIndex        =   9
@@ -126,6 +153,15 @@ Begin VB.Form special_gap
    End
    Begin VB.Label Label3 
       Caption         =   "Ë¢ÆÁ¼ä¸ô£º"
+      BeginProperty Font 
+         Name            =   "Î¢ÈíÑÅºÚ"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   255
       Left            =   120
       TabIndex        =   7
@@ -134,6 +170,15 @@ Begin VB.Form special_gap
    End
    Begin VB.Label Label1 
       Caption         =   "ÇëÑ¡ÔñÏûÏ¢·¢ËÍ·½Ê½:"
+      BeginProperty Font 
+         Name            =   "Î¢ÈíÑÅºÚ"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   255
       Left            =   240
       MousePointer    =   1  'Arrow
@@ -143,6 +188,15 @@ Begin VB.Form special_gap
    End
    Begin VB.Label Label2 
       Caption         =   "Ë¢ÆÁ´ÎÊý:"
+      BeginProperty Font 
+         Name            =   "Î¢ÈíÑÅºÚ"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   255
       Left            =   120
       TabIndex        =   5

@@ -15,6 +15,15 @@ Begin VB.Form special_quickest
    StartUpPosition =   1  '所有者中心
    Begin VB.CommandButton Command4 
       Caption         =   "取消"
+      BeginProperty Font 
+         Name            =   "微软雅黑"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   375
       Left            =   3240
       TabIndex        =   6
@@ -86,6 +95,15 @@ Begin VB.Form special_quickest
    End
    Begin VB.Label Label5 
       Caption         =   "刷屏期间不要点击其它任何窗口！"
+      BeginProperty Font 
+         Name            =   "微软雅黑"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       ForeColor       =   &H000000FF&
       Height          =   255
       Left            =   120
@@ -95,6 +113,15 @@ Begin VB.Form special_quickest
    End
    Begin VB.Label Label2 
       Caption         =   "刷屏次数:"
+      BeginProperty Font 
+         Name            =   "微软雅黑"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   255
       Left            =   120
       TabIndex        =   5
@@ -103,6 +130,15 @@ Begin VB.Form special_quickest
    End
    Begin VB.Label Label1 
       Caption         =   "请选择消息发送方式:"
+      BeginProperty Font 
+         Name            =   "微软雅黑"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   255
       Left            =   240
       MousePointer    =   1  'Arrow

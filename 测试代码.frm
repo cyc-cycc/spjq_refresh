@@ -3,18 +3,27 @@ Begin VB.Form 彩蛋
    BackColor       =   &H80000004&
    BorderStyle     =   1  'Fixed Single
    Caption         =   "彩蛋"
-   ClientHeight    =   1245
+   ClientHeight    =   1230
    ClientLeft      =   13350
    ClientTop       =   5235
-   ClientWidth     =   3720
+   ClientWidth     =   3735
    LinkTopic       =   "Form1"
    MaxButton       =   0   'False
    MinButton       =   0   'False
-   ScaleHeight     =   1245
-   ScaleWidth      =   3720
+   ScaleHeight     =   1230
+   ScaleWidth      =   3735
    StartUpPosition =   1  '所有者中心
    Begin VB.CommandButton Command1 
       Caption         =   "退出"
+      BeginProperty Font 
+         Name            =   "微软雅黑"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   375
       Left            =   120
       TabIndex        =   0
